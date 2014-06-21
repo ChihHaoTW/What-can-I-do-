@@ -87,9 +87,9 @@ def get_landmark_data(f):
 	for row in csv.DictReader(f):  
 		#print row['景點中文名稱'] + row['開放時間'] + row['X坐標'] + row['Y坐標'] + row['地址']
 		if row['開放時間'].find('\n') == -1:
-			landmark_str += "{name:" + row['景點中文名稱'] + "," + "time:" + row['開放時間'] + "," + "lat:" + row['地址'] + "," + "lng:" + row['X坐標'] + "," + "address:" + row['地址'] + "},"
+			landmark_str += "{name:" + row['景點中文名稱'] + "," + "type=landmark," + "time:" + row['開放時間'] + "," + "lat:" + row['地址'] + "," + "lng:" + row['X坐標'] + "," + "address:" + row['地址'] + "},"
 		else:
-			landmark_str += "{name:" + row['景點中文名稱'] + "," + "time:" + row['開放時間'].split('\n')[0] + row['開放時間'].split('\n')[1] + "," + "lat:" + row['地址'] + "," + "lng:" + row['X坐標'] + "," + "address:" + row['地址'] + "},"
+			landmark_str += "{name:" + row['景點中文名稱'] + "," + "type=landmark," + "time:" + row['開放時間'].split('\n')[0] + row['開放時間'].split('\n')[1] + "," + "lat:" + row['地址'] + "," + "lng:" + row['X坐標'] + "," + "address:" + row['地址'] + "},"
 
 	landmark_str = landmark_str[:-1] + "]"
 
