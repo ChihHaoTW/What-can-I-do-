@@ -162,14 +162,19 @@ function post_data(){
 			
 				<div class='item'>
 					<span class='name'>"+match[key]['name']+"</span>
-					<span class='timeTable'>"+match[key]['timeTable']+"</span>
+					<span class='timeTable' id='timeTable_"+key+"'></span>
 					<span class='meg'>"+megGenerator(match[key]['type'])+"</span>
-					<span class='search more'>Search More</span>					
+					<span class='search more'>Search More</span>			
 				</div>
 			
 			");
 			
-		
+			for(var i in match[key]['timeTable']){
+
+				$("span#timeTable_"+key).append(match[key][timeTable][i]);
+			
+			}
+			
 		}else if(match[key]['type'] == "art"){
 		
 			$('#list').append("
@@ -181,7 +186,6 @@ function post_data(){
 					<span class='meg'>"+megGenerator(match[key]['type'])+"</span>
 					<span class='search more'>Search More</span>					
 				</div>
-			
 			
 			");
 		
