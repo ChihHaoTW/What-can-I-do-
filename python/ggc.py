@@ -2,19 +2,12 @@
 # -*- coding: UTF-8 -*-
 
 import datetime
+import time
 from time import strftime
 import urllib2 as urllib
 import json
 from bs4 import BeautifulSoup
 from lxml import etree
-
-import cgi, cgitb 
-cgitb.enable()
-
-form = cgi.FieldStorage() 
-
-movie = form.getvalue('movie')
-num = form.getvalue('num')
 
 def get_movie_data(soup):
 	for child in soup.find_all('div', class_ = "showtime_box"):
@@ -88,7 +81,7 @@ def get_park_data(tree):
 	print park_json
 
 #page = urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06607_a06.html')
-mv1 = BeautifulSoup(open('theater_t06607_a06.html'))
+#mv1 = BeautifulSoup(open('theater_t06607_a06.html'))
 #get_movie_data(mv1)
 
 #page = urllib.urlopen('http://culture.tainan.gov.tw/act_month/index.php?m2=30')
