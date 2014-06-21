@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -28,10 +29,43 @@
 <meta name="Category.Service"    content="I00,I60" />
 <meta name="Category.Cake"       content="D00,D40,D50,D80" />
 <meta name="Keywords"            content="臺南市政府文化局 ,每月藝文活動  " />
+=======
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>臺南市政府文化局-臺南藝文-每月藝文活動 </title>
+<!--[if IE 6]><script type="text/javascript" src="../css/DD_belatedPNG_0.0.8a-min.js"></script><script type="text/javascript"> DD_belatedPNG.fix('.png');</script><![endif]-->
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="chrome=1" http-equiv="X-UA-Compatible">
+<link rel="govtwsimpledc.xsd" href="http://www.gov.tw/schema/dc/" title="Dublin Core" />
+<meta name="Accessible_website"  content="通過A+優先等級無障礙網頁檢測"> 
+<meta name="DC.Title"            content="每月藝文活動" />
+<meta name="DC.Creator"          content="臺南市政府文化局" />
+<meta name="DC.Subject"          content="每月藝文活動" />
+<meta name="DC.Description"      content="臺南市政府文化局" />
+<meta name="DC.Contributor"      content="臺南市政府文化局" />
+<meta name="DC.Type"             content="Text" />
+<meta name="DC.Format"           content="text" />
+<meta name="DC.Source"           content="臺南市政府文化局" />
+<meta name="DC.Language"         content="中文" />
+<meta name="DC.coverage.t.max"   content="2014-06-21" />
+<meta name="DC.coverage.t.min"   content="2012-12-31" />
+<meta name="DC.Publisher"        content="臺南市政府文化局" />
+<meta name="DC.Date"             content="2014-06-21" />
+<meta name="DC.Identifier"       content="" />
+<meta name="DC.Relation"         content="GIP-EY-LP-090730-MP01" />
+<meta name="DC.Rights"           content="臺南市政府文化局" />
+<meta name="Category.Theme"      content="400,440" />
+<meta name="Category.Service"    content="I00,I60" />
+<meta name="Category.Cake"       content="D00,D40,D50,D80" />
+<meta name="Keywords"            content="臺南市政府文化局 ,每月藝文活動  " />
+>>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb
 <meta property="og:title"		 content="臺南市政府文化局 ,每月藝文活動  " /> <link href="../css/03/style.css" rel="stylesheet" type="text/css" />
 <link href="../css/03/news.css" rel="stylesheet" type="text/css" />
 <link href="../css/03/links.css" rel="stylesheet" type="text/css" />
 <link href="../css/03/form.css" rel="stylesheet" type="text/css" />
+<<<<<<< HEAD
 <link href="../css/album.css" rel="stylesheet" type="text/css" />
 <link href="../css/tour.css" rel="stylesheet" type="text/css" />
 <link href="../css/archives.css" rel="stylesheet" type="text/css" />
@@ -83,6 +117,59 @@
         <div class="clean"></div><!--clean-->
       </div><!--top--> 
       <div id="menu">
+=======
+<link href="../css/album.css" rel="stylesheet" type="text/css" />
+<link href="../css/tour.css" rel="stylesheet" type="text/css" />
+<link href="../css/archives.css" rel="stylesheet" type="text/css" />
+<link href="../css/epaper.css" rel="stylesheet" type="text/css" />
+<link href="../css/faq.css" rel="stylesheet" type="text/css" />
+<link href="../css/mail.css" rel="stylesheet" type="text/css" />
+<link href="../css/registration.css" rel="stylesheet" type="text/css" />
+<link href="../css/search.css" rel="stylesheet" type="text/css" />
+<link href="../css/sitemap.css" rel="stylesheet" type="text/css" />
+<link href="../css/video.css" rel="stylesheet" type="text/css" />
+<link href="../css/act_month.css" rel="stylesheet" type="text/css" />
+<link href="../css/publication.css" rel="stylesheet" type="text/css" />
+<link href="../css/residence.css" rel="stylesheet" type="text/css" />
+<link href="../css/active_news.css" rel="stylesheet" type="text/css" />
+<link href="../css/login.css" rel="stylesheet" type="text/css" />
+<link href="../css/shopping.css" rel="stylesheet" type="text/css" />
+<link href="../css/place_rent.css" rel="stylesheet" type="text/css" />
+<link href="../css/guest.css" rel="stylesheet" type="text/css" />
+<link href="../css/vote.css" rel="stylesheet" type="text/css" />
+<link href="../css/apply.css" rel="stylesheet" type="text/css" />
+<script src="../df_js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="../df_js/ChangeFontSize.js" type="text/javascript"></script>
+<script src="../df_js/fancybox/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+<script src="../df_js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<script src="../df_js/readyfun.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../df_js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41799953-1', 'tainan.gov.tw');
+  ga('send', 'pageview');
+
+</script><link href="../sys/js/calendar-win2k-2.css" rel="stylesheet" type="text/css">
+<SCRIPT language=JavaScript src="../sys/js/calendar.js"></SCRIPT>
+<SCRIPT language=JavaScript src="../sys/js/wcalendar.js"></SCRIPT>
+<SCRIPT language=JavaScript src="../sys/js/calendar-en.js"></SCRIPT>
+</head>
+
+<body>
+<div id="wallpaper">
+  <div id="bigfooter">
+    <div id="all">
+      <div id="top">
+        <div id="logo"><a href="../index.php"><img src="../images/spacer.gif" width="335" height="84" alt="臺南市政府文化局(回首頁)" border="0" /></a></div><!--logo-->
+        <div id="top_link"><a href="#" accesskey="U" title="上方區域">:::</a>｜<a href='../sitemap/index.php?m2=65' >網站導覽</a>｜<a href='../links/index2.php?m2=61' >相關連結</a>｜<a href='../search/index.php?m2=63' >檢索查詢</a>｜<a href="../index.php">回首頁</a></div><!--top_link-->
+        <div class="clean"></div><!--clean-->
+      </div><!--top--> 
+      <div id="menu">
+>>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb
       <div class="menu01"><a href='../active/index.php?m2=16'  title="公布欄" ></a></div>
 <div class="menu02"><a href='../content/index.php?m2=25'  title="關於我們" ></a></div>
 <div class="menu03"><a href='../act_month/index.php?m2=30'  title="臺南藝文"  style="background:url(../images/03/menu03.jpg) no-repeat left bottom"></a></div>
@@ -94,6 +181,7 @@
 <div class="menu09"><a href='../pmail/index.php?m2=56'  title="民意交流" ></a></div>
 <div class="menu10"><a href='../form/index.php?m2=59'  title="政府公開資訊" ></a></div>
 <div class="menu11"><a href='../news2/index.php?m2=60'  title="志工園地" ></a></div>
+<<<<<<< HEAD
        
         <div class="clean"></div><!--clean-->
       </div><!--menu-->      
@@ -1956,3 +2044,1867 @@
 </div><!--wallpaper-->
 </body>
 </html>
+=======
+       
+        <div class="clean"></div><!--clean-->
+      </div><!--menu-->      
+      <div id="con">
+        <div id="left">
+          <div id="menu2">
+            <div id="left_title" title="臺南藝文">
+            <a href="#" title="左方區域" class="acc" accesskey="L">:::</a></div><!--left_title-->
+			  <div class="menu2_01"><a href='../act_month/index.php?m2=30'  style="background:url(../images/03/menu2-.jpg) no-repeat right bottom; color:#FFFFFF; background-color:#1d3013 ">每月藝文活動</a></div><div class="menu2_01"><a href='../epaper/indexw.php?m2=31' >活動週報</a></div><div class="menu2_01"><a href='../epaper/index.php?m2=32' >臺南藝文電子報</a></div><div class="menu2_01"><a href='../tour/indexp.php?m2=33' >活動海報</a></div><div class="menu2_01"><a href='../news/index.php?m2=34' >古蹟音樂沙龍</a></div>          
+          </div><!--menu2-->
+        </div><!--left-->
+<script language="javascript">
+    $(".submenu").hide();
+    $(".submenu[mshow]").show();
+    $(".menu a[href$='m2=30']").focus();
+    $(".submenu a[href$='m2=30").focus();
+</script>        
+        <div id="main">
+          <div class="place"><a href="#" title="中間區域" accesskey="C">:::</a><a href="../index.php">首頁</a>&gt; <a href='../act_month/index.php?m2=30'>臺南藝文</a> &gt; <a  href='../act_month/index.php?m2=30' title="每月藝文活動" >每月藝文活動</a>  > <a href='index.php?m2=30&sid=36'>2014年06月</a></div><!--place-->
+  <div id="main_title">
+    <div class="main_bn"> 
+    <div class="size"><a href="javascript:" title="小" id="fontSizeS">小</a></div><!--size-->
+    <div class="size"><a href="javascript:" title="中" id="fontSizeM">中</a></div><!--size-->
+    <div class="size"><a href="javascript:" title="大" id="fontSizeL">大</a></div><!--size-->         
+      <a href="javascript:" title="列印"  id="print_content"><img src="../images/icon_print.jpg" alt="列印" width="45" height="16" border="0" align="absmiddle" /></a><noscript style="font-size:75%">[CTRL]+[P]列印</noscript>
+      <a href="mailto:?subject=臺南市政府文化局-臺南藝文-每月藝文活動 &body=http%3A%2F%2Fculture.tainan.gov.tw%2Fact_month%2Findex.php%3Fm2%3D30" title="轉寄"><img src="../images/icon_mail.jpg" alt="轉寄" width="48" height="16" border="0" align="absmiddle" /></a>
+      <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fculture.tainan.gov.tw%2Fact_month%2Findex.php%3Fm2%3D30" target="_blank"  title="Facebook(另開新視窗)"><img src="../images/icon_fb.jpg" alt="Facebook(另開新視窗)" width="26" height="26" border="0" align="absmiddle" /></a> 
+      <a href="http://www.plurk.com/?qualifier=shares&status=http%3A%2F%2Fculture.tainan.gov.tw%2Fact_month%2Findex.php%3Fm2%3D30" target="_blank"  title="Plurk(另開新視窗)"><img src="../images/icon_plurk.jpg" alt="Plurk(另開新視窗)" width="26" height="26" border="0" align="absmiddle" /></a>
+      <a href="http://twitter.com/home?status=http%3A%2F%2Fculture.tainan.gov.tw%2Fact_month%2Findex.php%3Fm2%3D30" target="_blank"  title="Twitter(另開新視窗)"><img src="../images/icon_tw.jpg" alt="Twitter(另開新視窗)" width="26" height="26" border="0" align="absmiddle" /></a>         
+    </div><!--main_bn--><span class="color">每</span>月藝文活動</div><!--title-->
+             <div id="main_type">
+          <form action="index.php?m2=30" method="post" style="margin:0"><input id="token_cs" name="token_cs" type="hidden"  value="a25f753b96b3e0b375f4c5c04ce3fbd3" />月份          
+          <label for="sid"> <select name='sid' class='search_table'>
+<option value=''>▼請選擇月份</option>
+<option value='36' selected>．2014年06月</option><option value='35' >．2014年05月</option><option value='34' >．2014年04月</option><option value='33' >．2014年03月</option><option value='19' >．2014年02月</option><option value='18' >．2014年01月</option><option value='17' >．2013年12月</option><option value='15' >．2013年11月</option><option value='14' >．2013年10月</option><option value='13' >．2013年9月</option><option value='12' >．2013年8月</option><option value='11' >．2013年7月</option><option value='10' >．2013年6月</option></select>
+</label>
+        活動日期： <input name="tm3" type="text" class="search_bar" id="tm3"  value="" size="10"  title="請輸入日期 例：2012/3/15"/></label>
+      <img src="../sys/img/cal_16.gif" alt="日曆" width="16" height="16"  class="shCal"   onclick="return showCalendar('tm3', 'y/m/d');"  onKeyPress="return showCalendar('tm3', 'y/m/d');"/>
+       <noscript style="font-size:75%" title="請輸入日期">例：2012/3/15</noscript>
+        ~
+      <label for="tm4"><input name="tm4" type="text" class="search_bar" id="tm4" value="" size="10"  title="請輸入日期 例：2012/3/15"/></label>
+      <img src="../sys/img/cal_16.gif" alt="日曆" width="16" height="16"  class="shCal"  onclick="return showCalendar('tm4', 'y/m/d');"  onKeyPress="return showCalendar('tm4', 'y/m/d');"/>
+       <noscript style="font-size:75%" title="請輸入日期">例：2012/3/15</noscript>
+            <label for="tid"><select name='tid' class='search_table'>
+<option value=''>▼請選擇類別</option>
+<option value='1' >音樂</option>
+<option value='3' >舞蹈</option>
+<option value='4' >親子</option>
+<option value='5' >獨立音樂</option>
+<option value='6' >展覽</option>
+<option value='7' >講座</option>
+<option value='8' >電影</option>
+<option value='11' >綜藝</option>
+<option value='13' >競賽</option>
+<option value='14' >徵選</option>
+<option value='17' >演唱會</option>
+<option value='19' >研習課程</option>
+<option value='20' >民俗活動</option>
+<option value='21' >創意市集</option>
+<option value='15' >其他</option>
+</select>
+</label>
+            <label for="place_id"><select name='place_id' class='search_table' style='width:200px'>
+<option value=''>▼全　區</option>
+<option value='20' >臺南文化中心</option>
+<option value='95' >億載金城</option>
+<option value='1' >新營文化中心</option>
+<option value='3' >蕭壠文化園區</option>
+<option value='2' >總爺藝文中心</option>
+<option value='15' >歸仁文化中心</option>
+<option value='52' >永成戲院</option>
+<option value='53' >永華市政中心市府廣場</option>
+<option value='93' >民治市政中心</option>
+<option value='94' >台南應用科技大學</option>
+<option value='47' >吳晉淮音樂紀念館</option>
+<option value='50' >南瀛綠都心</option>
+<option value='51' >臺南市南門電影書院</option>
+<option value='4' >菜寮化石館</option>
+<option value='6' >新化演藝廳</option>
+<option value='25' >文化部文化資產局 </option>
+<option value='5' >隆田考古展示室</option>
+<option value='7' >無米樂旅遊服務中心</option>
+<option value='8' >永康區社教中心</option>
+<option value='9' >樹谷園區服務中心</option>
+<option value='10' >香雨書院</option>
+<option value='11' >鹽分地帶文化館</option>
+<option value='12' >方圓美術館</option>
+<option value='13' >南瀛研究資料館</option>
+<option value='14' >南瀛天文教育園區</option>
+<option value='16' >成功大學藝術中心</option>
+<option value='17' >國立臺南生活美學館</option>
+<option value='18' >國立台灣文學館</option>
+<option value='19' >中華佛教百科文獻基金會－妙心寺</option>
+<option value='23' >臺南市吳園公會堂</option>
+<option value='24' >臺南市客家文化會館</option>
+<option value='26' >臺南山林事務所</option>
+<option value='27' >佳里牛園</option>
+<option value='28' >麻豆文化館</option>
+<option value='29' >邱明星書法藝術館</option>
+<option value='31' >台灣創價學會安南藝文中心</option>
+<option value='32' >臺南家具產業博物館</option>
+<option value='33' >白鷺灣藝術空間</option>
+<option value='34' >財團法人榮仁文化藝術基金會</option>
+<option value='35' >文創PLUS-臺南創意中心</option>
+<option value='37' >奇美博物館演藝廳</option>
+<option value='38' >涴莎藝術</option>
+<option value='39' >札哈木公園</option>
+<option value='40' >臺南市知事官邸。音樂會館</option>
+<option value='41' >揚逵文學館</option>
+<option value='42' >葉石濤文學紀念館</option>
+<option value='43' >夕遊出張所</option>
+<option value='44' >夕遊水逸埠頭</option>
+<option value='45' >夕遊井仔腳瓦盤鹽田</option>
+<option value='46' >Sonispa漾魅力音波體驗館</option>
+<option value='99' >其　　他</option>
+<option value='21' >臺南市立圖書總館</option>
+<option value='54' >市圖總館兒童室</option>
+<option value='22' >新營文化中心圖書館</option>
+<option value='55' >中西區圖書館</option>
+<option value='56' >安平區圖書館</option>
+<option value='49' >安南區土城分館</option>
+<option value='57' >安南區安南圖書館</option>
+<option value='58' >東區林森圖書館</option>
+<option value='59' >東區裕文圖書館</option>
+<option value='60' >南區喜樹圖書館</option>
+<option value='48' >新營區圖書館</option>
+<option value='61' >七股區圖書館</option>
+<option value='62' >下營區圖書館</option>
+<option value='63' >大內區圖書館</option>
+<option value='64' >山上區圖書館</option>
+<option value='65' >仁德區圖書館</option>
+<option value='66' >六甲區圖書館</option>
+<option value='67' >北門區圖書館</option>
+<option value='68' >左鎮區圖書館</option>
+<option value='69' >永康區圖書館</option>
+<option value='70' >玉井區圖書館</option>
+<option value='71' >白河區圖書館</option>
+<option value='72' >安定區圖書館</option>
+<option value='73' >西港區圖書館</option>
+<option value='74' >佳里區圖書館</option>
+<option value='75' >官田區圖書館</option>
+<option value='76' >東山區圖書館</option>
+<option value='77' >南化區圖書館</option>
+<option value='78' >後壁區圖書館</option>
+<option value='79' >柳營區圖書館</option>
+<option value='80' >將軍區圖書館</option>
+<option value='81' >麻豆區圖書館</option>
+<option value='82' >善化區圖書館</option>
+<option value='83' >新化區圖書館</option>
+<option value='84' >新市區圖書館</option>
+<option value='85' >楠西區圖書館</option>
+<option value='86' >學甲區圖書館</option>
+<option value='87' >蕭壠文化園區兒童圖書館</option>
+<option value='88' >龍崎區圖書館</option>
+<option value='89' >歸仁區圖書館</option>
+<option value='90' >關廟區圖書館</option>
+<option value='91' >鹽水區圖書館</option>
+<option value='92' >臺南文化中心音樂圖書室   </option>
+</select>
+</label>
+            
+            <label for="keyword"><input name="kd" type="text" class="search_table" id="kd"  value="請輸入關鍵字" onfocus="this.value=''"  accesskey="s" /></label>
+            <input name="search" type="image" class="search_bn" id="search_img" src="../images/bn_search-.jpg" alt="搜尋" />
+            </form>
+            <div class="clean"></div><!--clean-->
+          </div><!--main_type-->          <div id="FontSizeArea">
+          
+                     
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-1.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">音樂</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5728'>古蹟音樂沙龍</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 ~2014-06-29                             　　活動地點：其　　他                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5257'>南科實中管樂團6週年音樂會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5576'>《琴語箏風‧大甲樂揚》－臺南市仁德區大甲國民小學</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 11:15:00~2014-06-01 17:00:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5131'>《琴語箏風‧大甲樂揚》－臺南市仁德區大甲國民小學</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 14:15:00~2014-06-01 17:00:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5258'>臺南市中西區永福國民小學第34屆音樂班畢業演奏會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5371'>陳亭妦大提琴「感恩」音樂會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04 19:00:00                            　　活動地點：臺南市吳園公會堂                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5409'>【下午茶音樂會】臺南市立民族管絃樂團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5616'>海韻山情田椪花演唱會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:30:00~2014-06-07 16:00:00                            　　活動地點：永成戲院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5486'>海韻山情─田椪花  鶮鶮ㄍㄨˋ重唱</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:30:00                            　　活動地點：永成戲院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5609'>【原生劇場】Donizetti歌劇Rita(音樂會型式)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 19:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5359'>【新化演藝廳】音符躍動十年夢</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 19:30:00~2014-06-07 21:30:00                            　　活動地點：新化演藝廳                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5261'>魔法鋼琴與蕭邦短篇（Magic Piano and the Chopin Shorts Live）</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5489'>魔法鋼琴與蕭邦短篇Magic Piano and the Chopin Shorts Live</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08 14:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5610'>【原生劇場】掌聲響起─黃南海師生聲樂演唱會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08 14:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5814'>《2014官邸音樂會》蘇顯達名家名琴名曲 小提琴獨奏會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14                             　　活動地點：臺南市知事官邸。音樂會館 二樓知事大廳｜售票                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5410'>【下午茶音樂會】SNS樂團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5487'>來自火燒店的Dr.Wu ~吳晉淮音樂大師傳唱音樂會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 14:30:00                            　　活動地點：永成戲院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5369'>Who 餓吉了? 吉他成果發表會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 15:30:00~2014-06-14 10:15:00                            　　活動地點：臺南市吳園公會堂                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5360'>【新化演藝廳】國立新化高工103年管樂期末發表會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 19:00:00~2014-06-14 21:00:00                            　　活動地點：新化演藝廳                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5492'>佳里國中管樂團成果發表會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 15:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5370'>崑山科大國樂社成果發表會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 19:00:00~2014-06-15 20:20:00                            　　活動地點：臺南市吳園公會堂                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5815'>奇怪的音樂會*最終回《音声，詩三首》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21                             　　活動地點：臺南市知事官邸。音樂會館 二樓知事大廳｜售票                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5135'>「聽‧聞」蘇皇任、黃雅綾、林芝妏、曹郁涵聯合打擊音樂會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 15:30:00~2014-06-21 17:10:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5611'>【原生劇場】海芋輕合唱團2014音樂會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 14:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5584'>「聽‧聞」蘇皇任、黃雅綾、林芝妏、曹郁涵聯合打擊音樂會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 15:30:00~2014-06-22 17:30:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5493'>淡江大學合唱團第62屆巡迴公演 聽濤-極光落夏</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-25 19:30:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5412'>【下午茶音樂會】 11郎</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5266'>台南愛樂管絃樂團2014公益演出“愛與關懷系列4”</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5361'>【新化演藝廳】音樂在線越愛現</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 19:30:00~2014-06-28 21:30:00                            　　活動地點：新化演藝廳                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5267'>中歐琴緣~臺南市交響樂團2014夏季音樂會（Tainan Symphony Orchestra 2014 Summer Concert）</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5580'>巴奈《母親的愛》彈唱會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29 14:30:00~2014-06-29 15:30:00                            　　活動地點：蕭壠文化園區 A10館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5413'>【長雲樂集】相思海</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2015-06-01                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5414'>【長雲樂集】兩相依</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2015-06-08                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5415'>【長雲樂集】桃花鄉</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2015-06-15                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5416'>【長雲樂集】浮水印</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2015-06-22                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5417'>【長雲樂集】 茶葉青</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2015-06-29                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-2.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">戲劇</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5368'>臺南市觀光旅遊局日本和服活動</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-05-29 10:10:00~2014-06-02 10:10:00                            　　活動地點：臺南市吳園公會堂                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5488'>西瓜王子～皮皮兒童劇團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 19:30:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5260'>2014TNAF「臺灣精湛」臺灣豫劇團2014年度公演大戲《梅山春》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5618'>【原生劇場】偶偶偶劇團《野狼‧兔子‧AMIGO！》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-12 14:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-3.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">舞蹈</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5490'>梵羽小舞劇坊─我的不同梵想</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-11 19:30:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5582'>《四季狂想曲》－韻鈴舞蹈團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 19:30:00~2014-06-14 21:30:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5133'>《四季狂想曲》－韻鈴舞蹈團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 19:30:00~2014-06-14 21:30:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5583'>《紫色玫瑰秘密花園》－飛揚民族舞團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 19:00:00~2014-06-15 21:30:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5134'>《紫色玫瑰秘密花園》－飛揚民族舞團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 19:00:00~2014-06-15 21:00:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5264'>2014TNAF「國際經典」世紀舞蹈大師 馬克．莫里斯Ⅰ 莫札特之舞（Mark MorrisⅠMozart）</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-19                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5265'>2014TNAF「國際經典」世紀舞蹈大師 馬克．莫里斯 Ⅱ浪漫之舞（Mark Morris II Bartók.Weber. Hummel）</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-20                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5411'>【下午茶音樂會】梵羽舞蹈藝術團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5612'>【原生劇場】蒂摩爾古薪舞集 2014《kurakuraw‧舞琉璃》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-27 19:30:00~2014-06-29 14:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5588'>《黃色玫瑰秘密花園》－飛揚民族舞團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29 07:00:00~2014-06-29 21:00:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5136'>《黃色玫瑰秘密花園》－飛揚民族舞團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29 19:00:00~2014-06-29 21:00:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-4.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">親子</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5570'>【說故事】故事媽媽說故事</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 ~2014-06-29                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5121'>臺灣囡仔快樂屋-繪本好好玩(我的快樂&自大的螢火蟲露西)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 10:00:00~2014-06-01 12:00:00                            　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5251'>義工媽媽說故事10306-1</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 15:00:00~2014-06-01 16:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5568'>【說故事】小葫蘆歡樂唱遊</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04 ~2014-06-25                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5418'>【工藝DIY】玻璃響瓶DIY</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04 ~2014-06-05                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5569'>【說故事】藝想天開魔法故事</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 ~2014-06-28                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5479'>袋鼠媽媽說故事 - 溫馨友誼</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 10:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5247'>親子名曲玩賞系列--動物與植物</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:30:00~2014-06-07 16:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5571'>蓮鄉媽媽說故事</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08                             　　活動地點：白河區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5122'>臺灣囡仔快樂屋-繪本好好玩(騎車 真好玩&了不起的爸爸)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08 10:00:00~2014-06-08 12:00:00                            　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5246'>慢飛寶貝與愛愛天使音樂故事時間-愛的抱抱</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08 15:00:00~2014-06-08 16:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5626'>【葉老的校外教學】忠義國小五年五班</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-10 09:30:00~2014-06-10 11:00:00                            　　活動地點：葉石濤文學紀念館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5262'>紙風車劇團─三國奇遇</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5480'>袋鼠媽媽說故事 - 溫馨友誼</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 10:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5249'>喜閱童年歡樂列車--The Hungry King</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 14:00:00~2014-06-14 15:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5572'>【說故事】外籍配偶親子共讀活動</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：左鎮區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5263'>紙風車劇團─三國奇遇</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5123'>臺灣囡仔快樂屋-繪本好好玩(善良的小花&嗨!你好)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 10:00:00~2014-06-15 12:00:00                            　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5253'>義工媽媽說故事10306-2</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 15:00:00~2014-06-15 16:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5419'>【工藝DIY】毛根雜貨─愛心吊飾</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5481'>袋鼠媽媽說故事 - 溫馨友誼</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 10:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5124'>臺灣囡仔快樂屋-繪本好好玩(怪手隆隆&稱讚)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 10:00:00~0000-00-00                             　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5420'>【工藝DIY】折折稱奇─廣告紙和風傘</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-26                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5482'>袋鼠媽媽說故事</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 10:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5125'>曼菲天使-繪本說演&親子活動(我的姐姐不一樣)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29 10:00:00~2014-06-29 12:00:00                            　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-5.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">展覽</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5430'>《談金工話銀藝》天冠銀帽2014美學展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-04-05 ~2014-06-29                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5427'>《宜古宜今》沈培澤木雕個展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-04-05 ~2014-06-15                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5429'>《森林裡的夢想》劉邦漢木雕創作展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-04-12 ~2014-06-29                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5426'>【生活氣息】2014總爺藝術家創作展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-05-03 19:50:00~2014-06-29 19:50:00                            　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5816'>李政哲油畫展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-05-28 ~2014-06-29                             　　活動地點：臺南市知事官邸。音樂會館 每週二至週日9：00-18：00｜二樓知事大廳｜免費                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5255'>記憶的長流：兒童繪畫展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 09:00:00~2014-06-30 17:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5566'>陳瑞瑚油畫個展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-03 ~2014-06-29                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5465'>意藝－國立屏東教育大學視覺藝術學系碩士班班展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04 ~2014-06-22 17:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5463'>自然與人文的彙集-南瀛六六攝影會聯展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04 09:00:00~2014-06-22 17:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5462'>陳國進作品回顧展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04 09:00:00~2014-06-22 17:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5461'>移心-李長青油畫個展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04 09:00:00~2014-06-22 17:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5578'>繽紛女聲-2014國際攝影展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-06 ~2014-08-31                             　　活動地點：蕭壠文化園區 A4館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5601'>嘉義市象外水墨研究會聯展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-11 09:00:00~2014-06-29 17:00:00                            　　活動地點：歸仁文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5466'>2014臺南藝術家接力展(15) ─林坤銘雕塑展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-11 09:00:00~2014-07-13 17:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5579'>原來我不是攝影師一陳建維攝影展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-12 ~2014-09-14                             　　活動地點：蕭壠文化園區 A10館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5602'>山光水色—生活記趣  鄭新卯個展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-12 09:00:00~2014-06-29 17:00:00                            　　活動地點：歸仁文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5784'>稻香懷古‧手創飆藝</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-12 10:20:00~2014-06-30 10:20:00                            　　活動地點：文創PLUS-臺南創意中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5474'>2013好書大家讀年度最佳少年兒童讀物書展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 ~2014-06-30                             　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5303'>五光十色自然系-陳泰元八十傘壽全台巡迴特展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 10:05:00~2014-06-22 10:05:00                            　　活動地點：臺南文化中心 文物陳列館一樓                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5304'>藝不可擋－台灣南方藝術聯盟展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 10:10:00~2014-06-22 10:10:00                            　　活動地點：臺南文化中心 第一藝廊                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5577'>木空間一Anadou X 小木作特展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 ~2014-08-31                             　　活動地點：蕭壠文化園區 A1館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5307'>雲墨香湧--郭振坤彩墨個展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 10:20:00~2014-07-06 10:20:00                            　　活動地點：臺南文化中心 第三藝廊                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5306'>沈建龍水墨創作展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 10:20:00~2014-07-06 10:20:00                            　　活動地點：臺南文化中心 第二藝廊                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5468'>陳陽春水彩意象展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-25 ~2014-07-13                             　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5467'>臺南市新營美術學會會員聯展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-25 ~2014-07-13                             　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5717'>「孩子的另一扇眼睛」攝影記錄展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-26 10:00:00~2014-07-25 10:00:00                            　　活動地點： 台南市中西區西門路一段658號13F                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5305'>新象畫會第四屆風起東方兩岸三地美術交流展</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-27 10:10:00~2014-07-06 10:10:00                            　　活動地點：臺南文化中心 文物陳列館一樓、第一藝廊                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-1.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">講座</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5244'>劉岠渭教授音樂導聆DVD系列—古典入門</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 00:20:00~2014-06-30 17:20:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5505'>3D動畫故事工場-實現台灣電影夢</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-03                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5811'>談天說地、鱟桸飯篱-談台語文化</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-06                             　　活動地點：臺南市知事官邸。音樂會館 二樓知事大廳｜18:30開始自由入場，額滿為止                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5812'>陳良基【創新的人生】分享講座</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07                             　　活動地點：臺南市知事官邸。音樂會館 二樓知事大廳｜自由入場，額滿為止                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5507'>脊椎保健講座</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07                             　　活動地點：佳里區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5506'>愛我們的家</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5660'>失智症的檢測及從日常生活出發</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 09:00:00~2014-06-07 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5662'>【103年度國民健康系列】粽味飄香&#39;&#39;贏&#39;&#39;得健康</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:30:00~2014-06-07 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5613'>【文學講座】李國修教會我的事</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:30:00~2014-06-07 16:00:00                            　　活動地點：葉石濤文學紀念館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5604'>2014臺南美食美學系列講座 第四場【從臺南農特產談創意糕點】</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 16:35:00                            　　活動地點：其　　他 亞洲餐旅學校（行政大樓2F視聽中心）（臺南市南區大成路一段5號）                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5508'>親子講座</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08                             　　活動地點：山上區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5663'>【全方位文化養生講座】淺談肌少症</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08 10:00:00~2014-06-08 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5664'>細胞水噹噹，健康擱輕鬆</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08 14:30:00~2014-06-08 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5509'>自信建立與自我認同</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-09                             　　活動地點：南化區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5510'>牡丹社事件前後之船舶</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-12                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5813'>土地之歌 - 台灣作曲家室內樂之夜</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-13                             　　活動地點：臺南市知事官邸。音樂會館 二樓知事大廳｜18:30開始自由入場，額滿為止                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5512'>拋速度與舒適-走在海之濱</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14                             　　活動地點：東區裕文圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5511'>幸福通行證</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5665'>【經典藝術人生】易經與領導統御—時乘六龍以御天</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 10:00:00~2014-06-14 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5469'>【四書系列講座】孟子篇：價值判斷（上）</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 10:00:00~2014-06-14 12:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5614'>【聚樂書房】寫寫畫畫變出書寶寶</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 14:00:00~2014-06-14 16:00:00                            　　活動地點：葉石濤文學紀念館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5491'>森林小學朱台翔校長2014年巡迴演講</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 14:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5666'>【經典藝術人生】易經與領導統御—帝皇王霸大鋪張</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 14:30:00~2014-06-14 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5470'>溫柔生產及快樂哺乳</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 14:30:00~2014-06-14 16:30:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5605'>【文創PLUS 策展的時代】設計展覽怎麼看？從東京出發。</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 16:40:00                            　　活動地點：文創PLUS-臺南創意中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5522'>簡單五招搞定親子關係</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：仁德區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5515'>精神健康講座-怎麼吃才健康</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：善化區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5514'>說故事活動講座</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：山上區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5513'>閱讀起步走~辦理故事媽媽培訓課程</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：六甲區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5667'>【經典藝術人生】易經與領導統御—虎據龍蟠今勝昔</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 10:00:00~2014-06-15 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5672'>【經典藝術人生】易經與領導統御—功成身退天之道</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 14:30:00~2014-06-15 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5673'>幸福人生 (一)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-19 14:30:00~2014-06-19 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5674'>幸福人生 (二)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-20 14:30:00~2014-06-20 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5528'>只有一個學生的學校</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21                             　　活動地點：市圖總館兒童室                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5524'>Bookstart 0-5歲閱讀起步走活動</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21                             　　活動地點：歸仁區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5523'>精健系列講座-美夢人生</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5617'>【文學踏查】中西區(二)</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 08:30:00~2014-06-21 12:10:00                            　　活動地點：葉石濤文學紀念館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5675'>【婦女健康講座】仙丹妙藥─止痛藥危害知多少？</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 10:00:00~2014-06-21 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5787'>【工藝職人--老中青三代 針線工藝職人分享會】繡出台灣復古新時尚－Hsiu創意手工繡花鞋</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 10:30:00                            　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5622'>【賴和紀念館】讀台灣文學讓我們闖出一片天</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 14:00:00~2014-06-21 16:00:00                            　　活動地點：葉石濤文學紀念館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5471'>氣功養生與炁功造命</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 14:30:00~2014-06-21 16:30:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5530'>動動手，你可以輕鬆愛地球</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22                             　　活動地點：市圖總館兒童室                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5529'>手指謠帶動唱講座</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22                             　　活動地點：山上區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5676'>【全方位文化養生講座】大腸癌的預防與治療</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 10:00:00~2014-06-22 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5473'>樂器鑑賞系列-薩克斯風大師班講座</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 14:00:00~2014-06-22 16:30:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5677'>【智慧佛法講座】知苦、識苦是佛性</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 14:30:00~2014-06-22 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5531'>細說瑯橋十八社總頭目潘文杰</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-26                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5532'>心生活文化系列講座-有一種旅行叫幸福</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5678'>【婦女健康講座】家有電動馬達─漫談注意力不足過動症</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 10:00:00~2014-06-28 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5621'>【臺語文學講座】台文筆會創作談</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 14:00:00~2014-06-28 16:00:00                            　　活動地點：葉石濤文學紀念館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5679'>【身心靈健康講座】健康概念之科學探源</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 14:30:00~2014-06-28 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5472'>運動傷害處理及預防</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 14:30:00~2014-06-28 16:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5538'>相信自己值得幸福</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5681'>大手牽小手~與孩子分享自然</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29 10:00:00~2014-06-29 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5683'>尋找與生俱足的東西</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29 14:30:00~2014-06-29 16:30:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-2.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">電影</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5559'>瘋電影</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 ~2014-06-29                             　　活動地點：蕭壠文化園區兒童圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5553'>蓮鄉媽媽假日電影會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01                             　　活動地點：白河區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5551'>電影欣賞</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 ~2014-06-29                             　　活動地點：仁德區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5243'>影片欣賞10306</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 00:10:00~2014-06-30 17:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5519'>公民運動*藝術行動---《我們》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 10:30:00~2014-06-01 11:28:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5516'>公民運動*藝術行動---《血色海灣》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 14:00:00~2014-06-01 15:32:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5557'>電影欣賞</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04 ~2014-06-29                             　　活動地點：善化區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5245'>引片、影片賞析會10306</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-05 09:00:00~2014-06-05 12:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5525'>公民運動*藝術行動---《粉墨登場》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-06 14:00:00~2014-06-06 15:26:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5558'>電影欣賞</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 ~2014-06-28                             　　活動地點：新營區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5556'>假日電影欣賞</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 ~2014-06-28                             　　活動地點：麻豆區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5126'>臺灣囡仔開麥拉-極地熊寶貝</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 10:00:00~2014-06-07 12:00:00                            　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5540'>週六反核減碳影展---《核你到永遠》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 10:30:00~2014-06-07 11:45:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5542'>週六反核減碳影展---《家有核鄰：德國反核抗爭史》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:00:00~2014-06-07 15:36:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5477'>電影欣賞-鞋貓劍客</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:30:00~2014-06-07 16:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5549'>公視假日電影院-戰浪</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5422'>【假日電影院】曾經．愛是唯一</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5520'>公民運動*藝術行動---《女朋友。男朋友》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-13 14:00:00~2014-06-13 15:46:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5517'>公民運動*藝術行動---《血色海灣》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-13 19:00:00~2014-06-13 20:32:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5127'>臺灣囡仔開麥拉-鯊魚黑幫</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 10:00:00~2014-06-14 12:00:00                            　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5544'>週六反核減碳影展---《不要再有下一個福島》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 10:30:00~2014-06-14 11:28:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5545'>週六反核減碳影展---《貢寮你好嗎？》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-14 14:00:00~2014-06-14 15:29:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5554'>刺殺林肯</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：安南區安南圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5423'>【假日電影院】 茉莉人生</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5526'>公民運動*藝術行動---《粉墨登場》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 10:30:00~2014-06-15 11:56:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5533'>公民運動*藝術行動---《彩虹保衛隊》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 14:00:00~2014-06-15 15:56:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5535'>公民運動*藝術行動---《沒問題俠客》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-20 14:00:00~2014-06-20 15:23:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5539'>公民運動*藝術行動---《沒問題俠客2：修理世界》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-20 19:00:00~2014-06-20 20:25:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5128'>臺灣囡仔開麥拉-功夫熊貓2</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 10:00:00~2014-06-21 12:00:00                            　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5548'>週六反核減碳影展---《能源救星》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 10:30:00~2014-06-21 10:58:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5552'>週六反核減碳影展---《核電爭議》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 14:00:00~2014-06-21 14:51:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5478'>電影欣賞-海洋天堂</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 14:30:00~2014-06-21 16:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5550'>公視假日電影院-仲夏夜府城</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22                             　　活動地點：臺南市立圖書總館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5424'>【假日電影院】當我們假ㄍㄟˋ在一起</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5518'>公民運動*藝術行動---《血色海灣》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 10:30:00~2014-06-22 12:02:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5521'>公民運動*藝術行動---《女朋友。男朋友》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 14:00:00~2014-06-22 15:46:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5534'>公民運動*藝術行動---《彩虹保衛隊》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-27 14:00:00~2014-06-27 15:56:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5527'>公民運動*藝術行動---《粉墨登場》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-27 19:00:00~2014-06-27 20:26:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5129'>臺灣囡仔開麥拉-高山上的童年</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 10:00:00~2014-06-28 12:00:00                            　　活動地點：歸仁文化中心 B1臺灣囡仔趣味館                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5541'>週六反核減碳影展---《核你到永遠》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 10:30:00~2014-06-28 11:45:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5543'>週六反核減碳影展---《家有核鄰：德國反核抗爭史》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-28 14:00:00~2014-06-28 15:36:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5555'>電影欣賞</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29                             　　活動地點：南區喜樹圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5425'>【假日電影院】自由大道</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5536'>公民運動*藝術行動---《沒問題俠客》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29 10:30:00~2014-06-29 11:53:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5537'>公民運動*藝術行動---《沒問題俠客2：修理世界》</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29 14:00:00~2014-06-29 15:25:00                            　　活動地點：臺南市南門電影書院                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-3.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">綜藝</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5421'>總爺綠藝市集</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21                             　　活動地點：總爺藝文中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-4.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">競賽</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5589'>2014第四屆臺南文學獎 徵件開始囉！</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-05-15 ~2014-06-15                             　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                    <div id="act_month">
+                      <ul>
+                        <li style=" background:url(../images/down_th03-5.jpg) no-repeat left top; height:39px;border-bottom-style:none;">
+                          <strong class="act_month_word" style="color:#FFFFFF">其他</strong>                          
+                          <div class="clean"></div><!--clean--></li>
+                                                  <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5785'>「夏舞茶」蓮花產業行銷系列活動</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-05-31 10:25:00~2014-06-22 10:25:00                            　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5562'>紙黏土-划龍舟</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01                             　　活動地點：柳營區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5108'>文資心亮點-青銅方鼎</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 09:40:00~2014-06-30 09:40:00                            　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5603'>文化局出版品 新書資訊</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-01 15:05:00~2014-06-30 15:05:00                            　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5628'>臺灣其雄木偶劇團  新狄青</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-04                             　　活動地點：新化演藝廳                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5632'>臺灣豫劇團  戲曲魔法堂---生旦凈丑大驚奇</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-05                             　　活動地點：歸仁文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5627'>臺灣豫劇團  戲曲魔法堂---生旦凈丑大驚奇</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-05                             　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5561'>愛上圖書館我的閱讀小天地</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07                             　　活動地點：安定區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5560'>銀髮族歌唱班</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 ~2014-06-28                             　　活動地點：北門區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5372'>影響‧新劇場「游‧戲計畫Ⅱ─藝起PLAY」 激發創造力研習暨成果發表會</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 09:00:00~2014-06-07 15:00:00                            　　活動地點：臺南市吳園公會堂                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5581'>2014臺南藝術節 臺灣精湛系列活動：《說唱迎馬年》－漢霖民俗說唱藝術團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:30:00~2014-06-08 14:30:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5132'>2014臺南藝術節 臺灣精湛系列活動：《說唱迎馬年》－漢霖民俗說唱藝術團</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-07 14:30:00~2014-06-08 14:30:00                            　　活動地點：歸仁文化中心 歸仁文化中心演藝廳                           
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5564'>圖書館悅章系列活動-跟著繪本動起來</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08                             　　活動地點：新市區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5563'>圖書館悅章系列活動-『幼兒閱讀推廣』故事人員直根培訓</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08                             　　活動地點：新市區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5460'>台灣拳頭會全國武術匯演暨跳蚤二手市集</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-08 10:00:00~2014-06-08 17:00:00                            　　活動地點：新營文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5635'>偶偶偶劇團  野狼兔子Amigo</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-12                             　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5634'>偶偶偶劇團  野狼兔子Amigo</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-12                             　　活動地點：新化演藝廳                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5636'>台北曲藝團  藝曲趣教遊</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-13                             　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5565'>圖書館悅章系列活動-親子動手做簡易餅乾烘培</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15                             　　活動地點：新市區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5684'>創世『舊愛變新歡』跳蚤市場</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-15 12:00:00~2014-06-15 16:00:00                            　　活動地點：臺南文化中心                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5786'>2014臺南美食美學系列講座 第五場【臺南的蔬果旅行】</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-21 10:25:00                            　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5789'>【工藝職人--工藝市集 × 職人實境演繹】</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-22 10:30:00                            　　活動地點：                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                                 <li>
+                          <div class="act_month_word">
+                           <a href='index-1.php?m2=30&sid=36&id=5567'>數位機會中心電腦課程~照片編修班</a></div><!--news_word-->
+                          <div class="act_month_date">活動日期：2014-06-29                             　　活動地點：六甲區圖書館                            
+                          </div><!--news_date-->
+                          <div class="clean"></div><!--clean-->
+                        </li>
+                                               </ul>              
+                    </div><!--act_month-->
+                       
+          
+          </div><!--FontSizeArea-->
+        </div><!--main-->
+        <div class="clean"></div><!--clean-->
+      </div><!--con-->
+      <div id="footer">
+        <div id="goback"> <a href="javascript:history.back()"><img src="../images/icon_back.jpg" alt="back" width="51" height="18" border="0" /></a>
+          <a href="#"><img src="../images/icon_top.jpg" alt="top" width="51" height="18" border="0" /></a>
+          <br />
+          <noscript>您的瀏覽器，不支援script語法，若您的瀏覽器無法支援，請按鍵盤上的alt鍵+左鍵 回上一頁</noscript>
+        </div><!--goback-->
+        <div class="clogo"><a href="http://www.webguide.nat.gov.tw/enable.jsp?category=20130705095631" target="_blank" title="本網站通過無障礙A+檢測(另開新視窗)"><img src="../images/a1.jpg" alt="本網站通過無障礙A+檢測(另開新視窗)" width="88" height="31" border="0" align="absmiddle" /></a></div><!--clogo-->
+        <div class="clogo1"><a href="http://www.gov.tw"  target="_blank" title="E政府(另開新視窗)"><img src="../images/gov.jpg" alt="E政府(另開新視窗)" width="43" height="45" border="0" /></a></div><!--clogo1-->
+        <span class="footer_word">Copyright ©2013臺南市政府文化局版權所有
+        ｜<a href="../content/index.php?m2=67"><strong>隱私權政策</strong></a> | <a href="../content/index.php?m2=66"><strong>網站安全政策</strong></a><br />
+        <strong>永華市政中心</strong>｜70801臺南市安平區永華路二段6號13樓<a href="../content/index.php?m2=28#go01"><img src="../images/icon_home.jpg" alt="位置圖" width="13" height="10" hspace="5" border="0" /></a>｜總機︰06-2991111        <a href='mailto:art@mail.tnc.gov.tw'><img src="../images/icon_mail2.jpg" alt="E-mail" width="14" height="9" hspace="5" border="0" /></a> <br />
+        <strong>新營文化中心</strong>｜73049臺南市新營區中正路23號<a href="../content/index.php?m2=28#go02" ><img src="../images/icon_home.jpg" alt="位置圖" width="13" height="10" hspace="5" border="0" /></a>｜總機：06-6321047        <a href='mailto:art@mail.tnc.gov.tw'><img src="../images/icon_mail2.jpg" alt="E-mail" width="14" height="9" hspace="5" border="0" /></a><br />
+        請用I.E.8.0或Firefox15.0以上1024x768 pixels解析瀏覽本網站</span>
+        <div class="clean"></div><!--clean-->
+      </div><!--footer-->
+            
+    </div><!--all-->
+  </div><!--bigfooter-->
+  
+</div><!--wallpaper-->
+</body>
+</html>
+>>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb

@@ -9,6 +9,11 @@ import json
 from bs4 import BeautifulSoup
 from lxml import etree
 import csv
+<<<<<<< HEAD
+=======
+import sys
+import urllib2
+>>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb
 
 def get_movie_data(soup):
 	for child in soup.find_all('div', class_ = "showtime_box"):
@@ -101,7 +106,11 @@ def get_landmark_data(f):
 #get_movie_data(mv1)
 
 #page = urllib.urlopen('http://culture.tainan.gov.tw/act_month/index.php?m2=30')
+<<<<<<< HEAD
 art = BeautifulSoup(open('index.php?m2=30'))
+=======
+art = BeautifulSoup(open('art', 'r'))
+>>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb
 now = strftime('%Y-%m-%d')
 #get_art_data(art, now)
 
@@ -112,4 +121,9 @@ root = park.getroot()
 
 
 landmark = open('landmark2.csv', 'r') 
+<<<<<<< HEAD
 get_landmark_data(landmark)
+=======
+#get_landmark_data(landmark)
+
+>>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb
