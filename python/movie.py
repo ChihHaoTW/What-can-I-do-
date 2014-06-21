@@ -40,7 +40,7 @@ def get_movie_data(soup):
 		movie_str += "},"
 
 	movie_json = json.dumps(movie_str, ensure_ascii=False)
-	print movie_json
+	print(json.JSONEncoder().encode(movie_str))
 #page = urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06607_a06.html')
 
 num = "2"
