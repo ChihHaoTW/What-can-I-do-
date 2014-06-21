@@ -85,14 +85,16 @@ def get_park_data(tree):
 #get_movie_data(mv1)
 
 #page = urllib.urlopen('http://culture.tainan.gov.tw/act_month/index.php?m2=30')
-art1 = BeautifulSoup(open('index.php?m2=30'))
+art = BeautifulSoup(open('index.php?m2=30'))
 now = strftime('%Y-%m-%d')
-get_art_data(art1, now)
+#get_art_data(art, now)
 
 
 park = etree.parse('03tainanparkinfo.xml')
 root = park.getroot()
 #get_park_data(root)
+
+
 
 
 
