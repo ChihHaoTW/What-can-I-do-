@@ -1,0 +1,79 @@
+* {
+
+	color: #ecf0f1;
+	font-family:"微軟正黑體";
+
+}
+
+body {
+
+	background-color: #298765;
+	
+}
+
+#title {
+	position: relative;
+	top: 10%;
+	left: 20%;
+	text-shadow: 2px 2px 3px rgba(20%,20%,40%,0.6),4px 4px 6px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+	font-size: 60pt;
+	font-family: "Tahoma";
+	width: 50%;
+}
+
+#side {
+
+	font-size: 45pt;
+	-moz-transform-origin:right bottom;
+	-moz-transform:rotate(-3deg);
+	-webkit-transform-origin:right bottom;
+	-webkit-transform:rotate(-3deg);
+	-o-transform-origin:right bottom;
+	-o-transform:rotate(-3deg);
+	-ms-transform-origin:right bottom;
+	-ms-transform:rotate(-3deg);
+	transform-origin:right bottom;
+	transform:rotate(-3deg);
+}
+
+#main {
+	
+	position: relative;
+	top: 20px;
+	left: 18%;
+
+}
+
+#tellMe {
+
+	position: relative;
+	left: 35%;
+	top: 20%;
+	background-color: #fff862;
+	font-size: 45pt;
+	width: 30%;
+	height: 10%;
+	box-shadow:2px 3px 3px rgba(20%,20%,40%,0.6),4px 4px 6px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+	border-radius: 5px;
+	color: #880015;
+	text-align: center;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	
+}
+
+#tellMe:hover {
+
+	cursor: pointer;
+	top: 20.5%;
+	left: 35.5%;
+
+}
+
+#tellMe:active {
+
+	top: 20%;
+	left: 35%;
+
+}
+
