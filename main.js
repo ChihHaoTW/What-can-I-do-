@@ -65,16 +65,16 @@ $(document).ready(function (){
 		
 		// 比對電影院距離
 		
-		for(var key in moviePlace){
+/*		for(var key in moviePlace){
 		
-			var dist = disVincenty(myPos.latitude, myPos.longitude, moviePlace[key]['lat'], moviePlace[key]['lng']);
+			var dist = disVincenty(myPos.latitude(), myPos.longitude(), moviePlace[key]['lat'], moviePlace[key]['lng']);
 			if(dist <= 2){
 				numOfMovie = key + 1;
 				targetMovie = moviePlace[key];
 			} 
 		
 		}
-		
+*/		
 		// 抓電影時刻表
 		
 		if(numOfMovie > 0){
@@ -97,16 +97,15 @@ $(document).ready(function (){
 		
 		}
 
-		
-		$.get("python/ggc.py",
-
-
-			function(data){
-
+		alert("aa");	
+		$.ajax({ 
+			url:"python/ggc.py", 
+			type: "get",	
+			success: function(data){
+				alert(data);
 				for(var key in data){
-				
-					data[key]["address"];
-					
+					alert(data[key]);
+				/*	
 					setTimeout(function() {
 						//呼叫decode()，傳入參數及Callback函數
 						geocoder.geocode({ address: data[key]['address'] }, function (results, status) {
@@ -126,10 +125,11 @@ $(document).ready(function (){
 							}
 						});
 					}, c++ * 1000);			
-				
+				*/
 			}
 		
-		}, "json");
+		}, 
+		datatype: "json"});
 
 		clean_index();
 		post_data();
@@ -139,8 +139,8 @@ $(document).ready(function (){
 });
 function clean_index(){
 
-	$('#title').clear();
-	$('#tellMe').clear();
+	$('#title').remove();
+	$('#tellMe').remove();
 	$('#body').append("<div id='message'>身為一個台南人, 你可以去 ... </div><div id='list'></div>");
 
 }
