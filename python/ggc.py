@@ -12,6 +12,10 @@ import csv
 import sys
 import urllib2
 
+import cgi, cgitb 
+cgitb.enable()
+
+
 def get_movie_data(soup):
 	for child in soup.find_all('div', class_ = "showtime_box"):
 		print child.div.a.get_text(strip=True)
