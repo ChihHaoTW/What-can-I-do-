@@ -53,6 +53,7 @@ def get_art_data(soup, cur_date):
 	art_str += art_str[:-3] + "}]"
 
 	art_json = json.dumps(art_str, ensure_ascii=False)
+	print "Content-type: application/json\n"
 	print(json.JSONEncoder().encode(art_str))
 
 
@@ -85,6 +86,7 @@ def get_park_data(tree):
 
 	#print park_str
 	park_json = json.dumps(park_str, ensure_ascii=False)
+	print "Content-type: application/json\n"
 	print(json.JSONEncoder().encode(park_str))
 
 def get_landmark_data(f):
@@ -100,6 +102,7 @@ def get_landmark_data(f):
 	landmark_str = landmark_str[:-1] + "]"
 
 	landmark_json = json.dumps(landmark_str, ensure_ascii=False)
+	print "Content-type: application/json\n"
 	print(json.JSONEncoder().encode(landmark_str))
 
 #page = urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06607_a06.html')
