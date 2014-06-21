@@ -97,39 +97,47 @@ $(document).ready(function (){
 		
 		}
 
-		alert("aa");	
+
 		$.ajax({ 
-			url:"python/ggc.py", 
-			type: "get",	
+			url:"/cgi-bin/ggc.py", 
+			type: "get",
+			datatype: "json",	
 			success: function(data){
-				alert(data);
+			
+				//data = data.substr(1, data.length-2);
+		
+				data = JSON.parse(data);
+			//	console.log(data[1].name);
 				for(var key in data){
-					alert(data[key]);
-				/*	
+					
+					
+					 
+					
 					setTimeout(function() {
 						//呼叫decode()，傳入參數及Callback函數
-						geocoder.geocode({ address: data[key]['address'] }, function (results, status) {
+						geocoder.geocode({ address: data[key].address }, function (results, status) {
 							//檢查執行結果
 							if (status == google.maps.GeocoderStatus.OK) {
 							
 								var loc = results[0].geometry.location;
 								var dist = disVincenty(myPos.latitude, myPos.longitude, loc.lat(), loc.lng());
-								
+								console.log(data[key].address);
 								if( dist <= std_dist) {
+
 									match.push(data[key]);
 								}
 							}
 							else
 							{
-								//  no match coord
+								console.log("no match address");//  no match coord
 							}
 						});
 					}, c++ * 1000);			
-				*/
+				
 			}
 		
-		}, 
-		datatype: "json"});
+		} 
+		});
 
 		clean_index();
 		post_data();

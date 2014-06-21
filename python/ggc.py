@@ -29,7 +29,7 @@ def get_movie_data(soup):
 		
 def get_art_data(soup, cur_date):
 	i = 0
-	art_str = "[{"
+	art_str = '[{'
 	for child in soup.find_all('div', class_ = "act_month_date"):
 
 		if child.get_text().find(cur_date) != -1:
@@ -37,20 +37,20 @@ def get_art_data(soup, cur_date):
 			#print child.parent.div.a.get_text(strip=True)
 			#print "  活動地點：".decode('utf-8') + child.get_text(strip=True).split("活動地點：".decode('utf-8'))[1]
 			
-			art_str += "name" + ":" + child.parent.div.a.get_text(strip=True) + ","
+			art_str += '\"name\"' + ':' + '\"' + child.parent.div.a.get_text(strip=True) + '\"' + ','
 			if child.get_text(strip=True).split("活動地點：".decode('utf-8'))[1] != "":
-				art_str += "address" + ":" + child.get_text(strip=True).split("活動地點：".decode('utf-8'))[1] + ","
+				art_str += '\"address\"' + ':' + '\"' + child.get_text(strip=True).split("活動地點：".decode('utf-8'))[1] + '\"' + ','
 			else:
-				art_str += "address" + ":" + "null" + ","
+				art_str += '\"address\"' + ':' + 'null' + ','
 
-			art_str += "type" + ":" + "art" + ","
-			art_str += "time" + ":" + child.get_text(strip=True).split("活動日期：".decode('utf-8'))[1].split("活動地點：".decode('utf-8'))[0].strip()
+			art_str += '\"type\"' + ':' + '\"art\"' + ','
+			art_str += '\"time\"' + ':' + '\"' + child.get_text(strip=True).split("活動日期：".decode('utf-8'))[1].split("活動地點：".decode('utf-8'))[0].strip() + '\"'
 
-			art_str += "},{"
+			art_str += '},{'
 		else:
 			continue
 
-	art_str += art_str[:-3] + "}]"
+	art_str = art_str[:-3] + '}]'
 
 	art_json = json.dumps(art_str, ensure_ascii=False)
 	print "Content-type: application/json\n"
@@ -109,10 +109,12 @@ def get_landmark_data(f):
 #mv1 = BeautifulSoup(page)
 #get_movie_data(mv1)
 
+#print "Content-type: text/json\n"
+
 page = urllib.urlopen('http://culture.tainan.gov.tw/act_month/index.php?m2=30')
 art = BeautifulSoup(page)
 now = strftime('%Y-%m-%d')
-#get_art_data(art, now)
+get_art_data(art, now)
 
 
 park = etree.parse(urllib.urlopen('http://data.tainan.gov.tw/cs_CZ/dataset/54189166-fd56-469c-ab56-74a2b05d2a9f/resource/aaef2427-597c-40cf-8ecf-db79c3b72f1c/download/03tainanparkinfo.xml'))
