@@ -151,69 +151,27 @@ function post_data(){
 
 	for(var key in match){
 
-		if(match[key]['type']) == "park"){
+		if(match[key]['type'] == "park"){
 
 			type = "地";
 		
-			$('#list').append("
-			
-				<div class='place BlogEntry' >
-					<span class='icon'>"+type+"</span>
-					<span class='right'>
-						<span class='name'>"+match[key]['name']+"</span>
-						<span class='address'>"+match[key]['address']+"</span>
-						<span class='search'>Search More</span>
-					</span>
-				</div>
-			
-			");
+			$('#list').append("<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='right'><span class='name'>"+match[key]['name']+"</span><span class='address'>"+match[key]['address']+"</span><span class='search'>Search More</span></span></div>");
 			
 		}else if(match[key]['type'] == "movie"){
 
 			type = "活";
 			
-			$('#list').append("
-
-				<div class='BlogEntry movie' >
-					<span class='icon'>"+type+"</span>
-					<span class='right'>
-						<span class='sub_left'>		
-							<div class='place'>"+targetMovie['name']+"</div>
-							<div class='address'>"+targetMovie['address']+"</div>
-						</span>
-						<span class='sub_middle'>
-							<span class='name'>"+match[key]['name']+"</span>
-							<span class='timeTable'></span>
-						</span>
-						<span class="sub_right">
-							<span class='search'>Search More</span>
-						</span>
-					</span>								
-				</div>
-			
-			");
+			$('#list').append("<div class='BlogEntry movie'><span class='icon'>"+type+"</span><span class='right'><span class='sub_left'><div class='place'>"+targetMovie['name']+"</div><div class='address'>"+targetMovie['address']+"</div></span><span class='sub_middle'><span class='name'>"+match[key]['name']+"</span><span class='timeTable'></span></span><span class='sub_right'><span class='search'>Search More</span></span></span></div>");
 			
 			for(var i=0;i<4;i++){
 
-				$("span#timeTable_"+key).append("
-					<span class='time'>"+match[key][timeTable][i]+"</span>
-					");
+				$("span#timeTable_"+key).append("<span class='time'>"+match[key][timeTable][i]+"</span>");
 			
 			}
 			
 		}else if(match[key]['type'] == "art"){
 		
-			$('#list').append("
-			
-				<div class='item'>
-					<span class='name'>"+match[key]['name']+"</span>
-					<span class='address'>"+match[key]['address']+"</span>
-					<span class='time'>"+match[key]['time']+"</span>
-					<span class='meg'>"+megGenerator(match[key]['type'])+"</span>
-					<span class='search more'>Search More</span>					
-				</div>
-			
-			");
+			$('#list').append("<div class='item'><span class='name'>"+match[key]['name']+"</span><span class='address'>"+match[key]['address']+"</span><span class='time'>"+match[key]['time']+"</span><span class='meg'>"+megGenerator(match[key]['type'])+"</span><span class='search more'>Search More</span></div>");
 		
 		}
 				
