@@ -82,7 +82,7 @@ $(document).ready(function (){
 			$.get("python/movie.py",
 			
 				{	
-					"num" : num;
+					"num" : num
 				},
 				
 				function(data) {
