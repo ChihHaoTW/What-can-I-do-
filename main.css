@@ -1,12 +1,11 @@
 * {
 
-	color: #ecf0f1;
 	font-family:"微軟正黑體";
 
 }
 
 body {
-
+	color: #ecf0f1;
 	background-color: #298765;
 	
 }
@@ -77,3 +76,150 @@ body {
 
 }
 
+
+#message {
+
+	position: relative;
+	width: 50%;
+	top: 10%;
+	left: 15%;
+	font-size: 40pt;
+	text-shadow: 2px 2px 3px rgba(20%,20%,40%,0.6),4px 4px 6px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+
+}
+
+#list {
+
+	position: relative;
+	width: 60%;
+	top: 13%;	
+	left: 20%;
+
+}
+
+.icon {
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #fff862;
+	font-size: 30pt;
+	color: #fff;
+	border-radius: 7px;
+	text-align: center;
+}
+
+.right {
+
+	position: absolute;
+	padding-top: 5px;
+	left: 80px;
+}
+
+.place .right {
+
+	padding-top: 7px;
+
+}
+
+.place .name {
+
+	font-size: 20pt;
+}
+
+.place .address {
+
+	position: relative;
+	font-size: 15pt;
+	left: 6%;
+	top: -1px;
+
+
+}
+
+.address {
+
+
+	font-size: 12pt;
+	
+}
+
+
+.search {
+
+	font-size: 12pt;
+
+}
+
+.search:hover {
+
+	cursor: pointer;
+	text-decoration: underline;
+
+}
+
+.search:active {
+
+	text-decoration: none;
+
+}
+
+.place .search {
+	
+	position: relative;
+
+	left: 38%;
+}
+
+
+
+.movie .sub_middle {
+
+	position: absolute;
+	top: 10px;
+	width: 500px;
+	left: 200px;
+
+}
+
+.movie .name {
+
+	font-size: 20pt;
+}
+
+.movie .sub_right {
+
+	position: absolute;
+	top: 15px;
+	width: 100px;
+	left:  350%;
+
+}
+
+.timeTable .time {
+
+	font-size: 10pt;
+
+}
+
+.activity .name {
+
+	font-size: 20pt;
+
+}
+
+.activity .sub_left {
+
+	position: absolute;
+	font-size: 12pt;
+	width: 200px;
+	left: 200px;
+
+}
+
+.activity .search {
+
+	position: relative;
+	left: 400px;
+
+}
