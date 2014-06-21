@@ -9,11 +9,8 @@ import json
 from bs4 import BeautifulSoup
 from lxml import etree
 import csv
-<<<<<<< HEAD
-=======
 import sys
 import urllib2
->>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb
 
 def get_movie_data(soup):
 	for child in soup.find_all('div', class_ = "showtime_box"):
@@ -102,28 +99,20 @@ def get_landmark_data(f):
 	print landmark_json
 
 #page = urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06607_a06.html')
-#mv1 = BeautifulSoup(open('theater_t06607_a06.html'))
+#mv1 = BeautifulSoup(page)
 #get_movie_data(mv1)
 
-#page = urllib.urlopen('http://culture.tainan.gov.tw/act_month/index.php?m2=30')
-<<<<<<< HEAD
-art = BeautifulSoup(open('index.php?m2=30'))
-=======
-art = BeautifulSoup(open('art', 'r'))
->>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb
+page = urllib.urlopen('http://culture.tainan.gov.tw/act_month/index.php?m2=30')
+art = BeautifulSoup(page)
 now = strftime('%Y-%m-%d')
-#get_art_data(art, now)
+get_art_data(art, now)
 
 
-park = etree.parse('03tainanparkinfo.xml')
+park = etree.parse(urllib.urlopen('http://data.tainan.gov.tw/cs_CZ/dataset/54189166-fd56-469c-ab56-74a2b05d2a9f/resource/aaef2427-597c-40cf-8ecf-db79c3b72f1c/download/03tainanparkinfo.xml'))
 root = park.getroot()
-#get_park_data(root)
+get_park_data(root)
 
 
-landmark = open('landmark2.csv', 'r') 
-<<<<<<< HEAD
+landmark = urllib.urlopen('http://data.tainan.gov.tw/cs_CZ/dataset/e70e2580-b45b-457f-8715-d1d0846434ac/resource/4a9a150a-e79a-4ae0-bcec-abd3e619f6a3/download/landmark2.csv') 
 get_landmark_data(landmark)
-=======
-#get_landmark_data(landmark)
 
->>>>>>> 53162020e4946344d65396b23eaa4e565bb7b7bb
