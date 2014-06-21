@@ -1,28 +1,36 @@
-var movie = [
+var moviePlace = [
 		
 		{ 
 			"name": "台南新光影城",
 			"address" : "台南市中西區西門路一段658號(新光三越)7-9樓",
 			"type" : "",
-			"time" : ""
+			"time" : "",
+			"lat"  : "22.987091",
+			"lng"  : "120.197819"
 		},
 		
 		{ 
 			"name": "台南威秀影城",
 			"address" : "台南市公園路60號8樓",
 			"type" : "",
-			"time" : ""
+			"time" : "",
+			"lat"  : "22.995780",
+			"lng"  : "120.206079"
 		},		
 	
 		{ 
 			"name": "台南國賓影城",
 			"address" : "台南市東區中華東路一段88號",
 			"type" : "",
-			"time" : ""
+			"time" : "",
+			"lat"  : "22.995774",
+			"lng"  : "120.234148"
 		},	
 
 	];
 var match = [];
+var numOfMovie = 0;
+
 
 $('#tellMe').click(function(){
 
@@ -37,7 +45,6 @@ $('#tellMe').click(function(){
 	var today = new Date();
 	var hour = today.getHours();
 	var minute = today.getMinutes();
-	var eatingTime = 0;
 	var c = 0;
 	var std_dist = 2;
 
@@ -55,15 +62,42 @@ $('#tellMe').click(function(){
 		// Browser doesn't support Geolocation
 		handleNoGeolocation(false);
 	}
+	
+	// 比對電影院距離
+	
+	for(var key in moviePlace){
+	
+		var dist = disVincenty(myPos.latitude, myPos.longitude, moviePlace[key]['lat'], moviePlace[key]['lng']);
+		if(dist <= 2) numOfMovie = key + 1;
+	
+	}
+	
+	// 抓電影時刻表
+	
+	if(numOfMovie > 0){
+	
+		$.get("movie.py",
+		
+			{	
+				"num"   : num;
+			},
+			
+			function(data) {
+			
+				for(var key in data){
+				
+					match.push(data[key]);
+				
+				}
+			
+			},"json");
+	
+	}
 
 	
 	$.get("ggc.py",
 
-		{	
-			"movie" : movie,
-			"num"   : num;
-		},
-	
+
 		function(data){
 
 			for(var key in data){
@@ -95,38 +129,8 @@ $('#tellMe').click(function(){
 	
 	}, "json");
 	
-	
-	
-	
 
 });
-
-
-	(function(num){
-	
-		
-		var defferedArray = [];
-
-		for(var i=0;i<num;i++){
-		
-			defferedArray.push(geocodeAjax(addr[i]));
-	
-		}
-
-		$.when.apply(null, defferedArray).then(function(){
-		
-			for(var j=0; j < markers.length ; j++ )
-			{
-		
-				$("#result").append(+"km <br />");
-			
-			}
-		
-		
-		});
-	
-	})(addr.length);
-	
 	
 function clean_index(){
 
@@ -147,6 +151,7 @@ function post_data(){
 					<span class='name'>"+match[key]['name']+"</span>
 					<span class='address'>"+match[key]['address']+"</span>
 					<span class='meg'>"+megGenerator(match[key]['type'])+"</span>
+					<span class='search more'>Search More</span>
 				</div>
 			
 			");
@@ -159,6 +164,7 @@ function post_data(){
 					<span class='name'>"+match[key]['name']+"</span>
 					<span class='timeTable'>"+match[key]['timeTable']+"</span>
 					<span class='meg'>"+megGenerator(match[key]['type'])+"</span>
+					<span class='search more'>Search More</span>					
 				</div>
 			
 			");
@@ -173,6 +179,7 @@ function post_data(){
 					<span class='address'>"+match[key]['address']+"</span>
 					<span class='time'>"+match[key]['time']+"</span>
 					<span class='meg'>"+megGenerator(match[key]['type'])+"</span>
+					<span class='search more'>Search More</span>					
 				</div>
 			
 			
@@ -183,16 +190,5 @@ function post_data(){
 		
 	}
 
-
-}
-
-
-
-function checkTime(hour) {
-
-	if(hour >= 6 && hour <= 9) return 1;
-	else if(hour >= 11 && hour <= 14) return 1;
-	else if(hour >= 17 && hour <= 19) return 1;
-	else return 0;
 
 }
