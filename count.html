@@ -1,0 +1,104 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="func.js"></script>
+</head>
+<script>
+
+$(function () {
+
+
+
+	var targetPos = [];
+	var markers = [];
+	geocoder = new google.maps.Geocoder();
+	var c = 0;
+	var myPos;
+	var addr = new Array("台南市東區大學路1號", "台南市中西區西門路一段658號(新光三越)7-9樓", "台南市東區中華東路一段88號");
+	
+	if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      
+		myPos = position.coords;
+
+		
+    }, function() {
+      handleNoGeolocation(true);
+    });
+	
+
+	
+  } else {
+    // Browser doesn't support Geolocation
+    handleNoGeolocation(false);
+  }
+	
+	
+	
+	//透過Google Geocoder將地址轉為經緯座標
+	function geocodeAjax(addr) {
+		//利用Deferred物件協助非同步呼叫全部完成的時機
+		var def = new jQuery.Deferred();
+		//geocoder似乎有使用量管控，若快速連續呼叫會停止運作
+		//在此使用setTimeout節流，每次查詢間隔一秒鐘
+		setTimeout(function() {
+			//呼叫decode()，傳入參數及Callback函數
+			geocoder.geocode({ address: addr }, function (results, status) {
+				//檢查執行結果
+				if (status == google.maps.GeocoderStatus.OK) {
+					var loc = results[0].geometry.location;
+					markers.push({
+						lat: loc.lat(),
+						lng: loc.lng()
+					});
+					//呼叫Deferred.resolve()，表示執行成功
+					def.resolve();
+				}
+				else
+				{
+					//呼叫Deferred.reject()，表示執行失敗
+					def.reject();
+				}
+			});
+		}, c++ * 1000);
+		//傳回Promise物件，以協調非同步呼叫結果
+	
+		return def.promise();
+	}
+	(function(num){
+	
+		
+		var defferedArray = [];
+
+		for(var i=0;i<num;i++){
+		
+			defferedArray.push(geocodeAjax(addr[i]));
+	
+		}
+
+		$.when.apply(null, defferedArray).then(function(){
+		
+			for(var j=0; j < markers.length ; j++ )
+			{
+		
+				$("#result").append(disVincenty(myPos.latitude, myPos.longitude, markers[j].lat, markers[j].lng)+"km <br />");
+			
+			}
+		
+		
+		});
+	
+	})(addr.length);
+
+});
+
+</script>
+
+<body>
+
+<div id="result"></div>
+
+
+</body>
+</html>
