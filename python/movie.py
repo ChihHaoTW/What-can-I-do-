@@ -23,6 +23,7 @@ def get_art_data(soup, cur_date):
 		#print child.get_text(strip=True)
 		if child.get_text().find(cur_date) != -1:
 			print child.parent.div.a.get_text(strip=True)
+			print "  活動地點：".decode('utf-8') + child.get_text(strip=True).split("活動地點：".decode('utf-8'))[1]
 
 
 
