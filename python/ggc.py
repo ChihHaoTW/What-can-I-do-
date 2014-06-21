@@ -8,6 +8,7 @@ import urllib2 as urllib
 import json
 from bs4 import BeautifulSoup
 from lxml import etree
+import csv
 
 def get_movie_data(soup):
 	for child in soup.find_all('div', class_ = "showtime_box"):
@@ -80,6 +81,21 @@ def get_park_data(tree):
 	park_json = json.dumps(park_str, ensure_ascii=False)
 	print park_json
 
+def get_landmark_data(f):
+	week = strftime('%w')
+	landmark_str = "["
+	for row in csv.DictReader(f):  
+		#print row['景點中文名稱'] + row['開放時間'] + row['X坐標'] + row['Y坐標'] + row['地址']
+		if row['開放時間'].find('\n') == -1:
+			landmark_str += "{name:" + row['景點中文名稱'] + "," + "time:" + row['開放時間'] + "," + "lat:" + row['地址'] + "," + "lng:" + row['X坐標'] + "," + "address:" + row['地址'] + "},"
+		else:
+			landmark_str += "{name:" + row['景點中文名稱'] + "," + "time:" + row['開放時間'].split('\n')[0] + row['開放時間'].split('\n')[1] + "," + "lat:" + row['地址'] + "," + "lng:" + row['X坐標'] + "," + "address:" + row['地址'] + "},"
+
+	landmark_str = landmark_str[:-1] + "]"
+
+	landmark_json = json.dumps(landmark_str, ensure_ascii=False)
+	print landmark_json
+
 #page = urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06607_a06.html')
 #mv1 = BeautifulSoup(open('theater_t06607_a06.html'))
 #get_movie_data(mv1)
@@ -95,10 +111,5 @@ root = park.getroot()
 #get_park_data(root)
 
 
-
-
-
-
-
-
-
+landmark = open('landmark2.csv', 'r') 
+get_landmark_data(landmark)
