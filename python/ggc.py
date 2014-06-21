@@ -105,14 +105,16 @@ def get_landmark_data(f):
 page = urllib.urlopen('http://culture.tainan.gov.tw/act_month/index.php?m2=30')
 art = BeautifulSoup(page)
 now = strftime('%Y-%m-%d')
-get_art_data(art, now)
+#get_art_data(art, now)
 
 
 park = etree.parse(urllib.urlopen('http://data.tainan.gov.tw/cs_CZ/dataset/54189166-fd56-469c-ab56-74a2b05d2a9f/resource/aaef2427-597c-40cf-8ecf-db79c3b72f1c/download/03tainanparkinfo.xml'))
 root = park.getroot()
-get_park_data(root)
+#get_park_data(root)
 
 
 landmark = urllib.urlopen('http://data.tainan.gov.tw/cs_CZ/dataset/e70e2580-b45b-457f-8715-d1d0846434ac/resource/4a9a150a-e79a-4ae0-bcec-abd3e619f6a3/download/landmark2.csv') 
-get_landmark_data(landmark)
+#get_landmark_data(landmark)
 
+response = urllib2.urlopen('http://zh.wikipedia.org/wiki/%E8%87%BA%E5%8D%97%E5%B8%82%E5%90%84%E7%B4%9A%E5%AD%B8%E6%A0%A1%E5%88%97%E8%A1%A8')
+school = BeautifulSoup(response)
