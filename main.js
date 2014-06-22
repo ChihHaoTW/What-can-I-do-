@@ -190,7 +190,7 @@ function clean_index(){
 
 	$('#title').remove();
 	$('#tellMe').remove();
-	$('body').append("<div id='message'>身為一個台南人, 你可以去 ... </div>   <section><div class='loader'></div></section>");
+	$('body').append("<div id='message'>身為一個台南人, 你可以去 ... </div><section><div class='loader'></div></section>");
 
 }
 
@@ -200,6 +200,7 @@ function post_data(column){
 
 		$('section').remove();
 		$('body').append("<div id='list></div>")
+		finish = 1;
 
 	}
 	var type;
