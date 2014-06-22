@@ -126,6 +126,8 @@ section {
 	font-size: 14pt;
 	left: 10%;
 	top: 28%;
+	overflow: visible;
+	width: 40%;
 
 }
 
@@ -135,6 +137,8 @@ section {
 	font-size: 15pt;
 	left: 50%;
 	top: 28%;
+	overflow: visible;
+	width: 40%;
 
 }
 
@@ -219,6 +223,7 @@ section {
 .activity .name {
 
 	font-size: 20pt;
+overflow: visible;
 
 }
 

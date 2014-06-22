@@ -43,11 +43,10 @@ def get_movie_data(soup):
 	print(json.JSONEncoder().encode(movie_str))
 #page = urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06607_a06.html')
 
-num = "2"
 if num == "1":
-	mv = BeautifulSoup(open('theater_t06607_a06.html')) # 新光影城
+	mv = BeautifulSoup(urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06607_a06.html')) # 新光影城
 elif num == "2":
-	mv = BeautifulSoup(open('theater_t06609_a06.html')) # 威秀
+	mv = BeautifulSoup(urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06609_a06.html')) # 威秀
 elif num == "3":
-	mv = BeautifulSoup(open('theater_t06608_a06.html')) # 國賓影城
+	mv = BeautifulSoup(urllib.urlopen('http://www.atmovies.com.tw/showtime/theater_t06608_a06.html')) # 國賓影城
 get_movie_data(mv)
