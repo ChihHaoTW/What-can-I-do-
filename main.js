@@ -28,7 +28,9 @@ var moviePlace = [
 		},	
 
 	];
+var initData = [];
 var match = [];
+var endData = [];
 var numOfMovie = 0;
 var targetMovie;
 
@@ -57,8 +59,10 @@ $(document).ready(function (){
 		
 			navigator.geolocation.getCurrentPosition(function(position) {
 			  
-				myPos = position.coords;
-
+				myPos = { 
+							'lat': position.coords.latitude,
+							'lng': position.coords.longitude
+						};
 			}, function() {
 			  handleNoGeolocation(true);
 			});
@@ -102,6 +106,52 @@ $(document).ready(function (){
 		
 		}
 
+		function geosearchAjax(column){
+
+
+			var def = new jQuery.Deferred();
+			setTimeout(function() {
+				  var pyrmont = new google.maps.LatLng(myPos.lat,myPos.lng);
+
+				  map = new google.maps.Map(document.getElementById('map'), {
+				      mapTypeId: google.maps.MapTypeId.ROADMAP,
+				      center: pyrmont,
+				      zoom: 15
+				    });
+					
+				  var request = {
+				    location: pyrmont,
+				    radius: '20',
+				    query: column.address
+				  };
+				
+				  service = new google.maps.places.PlacesService(map);
+				  service.textSearch(request, function(results, status) {
+				  def.resolve();
+
+					  if (status== google.maps.places.PlacesServiceStatus.OK) {
+					  		console.log(results[0]);
+					  		
+							var result = {
+								'name': column.name,
+								'address': results[0].formatted_address,
+								'type': column.type,
+								'time': column.time
+							}	
+					 		post_data(result);
+					  }else{
+					  	def.rejected();
+					  }
+
+					});
+	
+				}, c++ * 1000);
+					
+			return def.promise();
+		}
+		clean_index();
+
+		var defferedArray = [];
 
 		$.ajax({ 
 			url:"/cgi-bin/ggc.py", 
@@ -112,44 +162,16 @@ $(document).ready(function (){
 				//data = data.substr(1, data.length-2);
 		
 				data = JSON.parse(data);
-			//	console.log(data[1].name);
+				//console.log(data[1].address);
+				console.log("long = "+data.length);
 				for(var key in data){
+					
+					if(!(isEmpty(data[key].address))) defferedArray.push(geosearchAjax(data[key]));
+				}
 
-					setTimeout(function() {
-
-						  var pyrmont = new google.maps.LatLng(myPos.latitude,myPos.longitude);
-
-						  map = new google.maps.Map(document.getElementById('map'), {
-						      mapTypeId: google.maps.MapTypeId.ROADMAP,
-						      center: pyrmont,
-						      zoom: 15
-						    });
-
-						  var request = {
-						    location: pyrmont,
-						    radius: '2000',
-						    query: data[key].address
-						  };
-
-						  service = new google.maps.places.PlacesService(map);
-						  service.textSearch(request, function(results, status) {
-								  if (status == google.maps.places.PlacesServiceStatus.OK) {
-								    for (var i = 0; i < results.length; i++) {
-								      var place = results[i];
-								      console.log(key+" "+place.geometry.location);
-								    }
-								  }
-								});
-
-					}, c++ * 1000);			
-				
-			}
-		
-		} 
+			},
+			async: false	
 		});
-
-		clean_index();
-		post_data();
 		
 
 	});
@@ -168,42 +190,44 @@ function clean_index(){
 
 	$('#title').remove();
 	$('#tellMe').remove();
-	$('#body').append("<div id='message'>身為一個台南人, 你可以去 ... </div><div id='list'></div>");
+	$('body').append("<div id='message'>身為一個台南人, 你可以去 ... </div><div id='list'></div>");
 
 }
 
-function post_data(){
+function post_data(column){
 
 	var type;
 
-	for(var key in match){
 
-		if(match[key]['type'] == "park"){
+		if(column['type'] == "park"){
 
 			type = "地";
 		
-			$('#list').append("<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='right'><span class='name'>"+match[key]['name']+"</span><span class='address'>"+match[key]['address']+"</span><span class='search'>Search More</span></span></div>");
+			$('#list').append("<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='right'><span class='name'>"+column['name']+"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></span></div>");
 			
-		}else if(match[key]['type'] == "movie"){
+		}else if(column['type'] == "movie"){
 
 			type = "活";
 			
-			$('#list').append("<div class='BlogEntry movie'><span class='icon'>"+type+"</span><span class='right'><span class='sub_left'><div class='place'>"+targetMovie['name']+"</div><div class='address'>"+targetMovie['address']+"</div></span><span class='sub_middle'><span class='name'>"+match[key]['name']+"</span><span class='timeTable'></span></span><span class='sub_right'><span class='search'>Search More</span></span></span></div>");
+			$('#list').append("<div class='BlogEntry movie'><span class='icon'>"+type+"</span><span class='right'><span class='sub_left'><div class='place'>"+targetMovie['name']+"</div><div class='address'>"+targetMovie['address']+"</div></span><span class='sub_middle'><span class='name'>"+column['name']+"</span><span class='timeTable'></span></span><span class='sub_right'><span class='search'>Search More</span></span></span></div>");
 			
 			for(var i=0;i<4;i++){
 
-				$("span#timeTable_"+key).append("<span class='time'>"+match[key][timeTable][i]+"</span>");
+				$("span#timeTable_"+key).append("<span class='time'>"+column[timeTable][i]+"</span>");
 			
 			}
 			
-		}else if(match[key]['type'] == "art"){
-		
-			$('#list').append("<div class='item'><span class='name'>"+match[key]['name']+"</span><span class='address'>"+match[key]['address']+"</span><span class='time'>"+match[key]['time']+"</span><span class='meg'>"+megGenerator(match[key]['type'])+"</span><span class='search more'>Search More</span></div>");
-		
+		}else if(column['type'] == "art"){
+			type =  "活";
+		$('#list').append("<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='right'><span class='name'>"+column['name']+"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></span></div>");
+			
 		}
 				
 		
-	}
 
 
+}
+
+function isEmpty(str) {
+    return (!str || 0 === str.length);
 }
