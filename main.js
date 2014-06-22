@@ -199,7 +199,7 @@ function post_data(column){
 	var type;
 
 
-		if(column['type'] == "park"){
+		if(column['type'] == "park" || column['type']=='landmark'){
 
 			type = "地";
 		
@@ -207,7 +207,7 @@ function post_data(column){
 			
 		}else if(column['type'] == "movie"){
 
-			type = "活";
+			type = "影";
 			
 			$('#list').append("<div class='BlogEntry movie'><span class='icon'>"+type+"</span><span class='right'><span class='sub_left'><div class='place'>"+targetMovie['name']+"</div><div class='address'>"+targetMovie['address']+"</div></span><span class='sub_middle'><span class='name'>"+column['name']+"</span><span class='timeTable'></span></span><span class='sub_right'><span class='search'>Search More</span></span></span></div>");
 			
