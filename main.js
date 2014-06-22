@@ -210,7 +210,7 @@ function post_data(column){
 
 			type = "地";
 		
-			$('#list').append("	<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='name'>"+column['name']+aaaaaaaaaaa"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></div>");
+			$('#list').append("	<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='name'>"+column['name']+"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></div>");
 		}else if(column['type'] == "movie"){
 
 			type = "影";
@@ -224,7 +224,7 @@ function post_data(column){
 			
 		}else if(column['type'] == "art"){
 			type =  "活";
-			$('#list').append("	<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='name'>"+column['name']+aaaaaaaaaaa"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></div>");
+			$('#list').append("	<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='name'>"+column['name']+"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></div>");
 		}
 				
 		
