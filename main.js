@@ -42,7 +42,7 @@ $(document).ready(function (){
 	$('#tellMe').click(function(){
 
 		// 抓使用者位置
-
+		clean_index();
 		geocoder = new google.maps.Geocoder();
 		
 		
@@ -149,7 +149,7 @@ $(document).ready(function (){
 					
 			return def.promise();
 		}
-		clean_index();
+		
 
 		var defferedArray = [];
 
@@ -190,7 +190,7 @@ function clean_index(){
 
 	$('#title').remove();
 	$('#tellMe').remove();
-	$('body').append("<div id='message'>身為一個台南人, 你可以去 ... </div>   <section><div class="loader"></div></section>");
+	$('body').append("<div id='message'>身為一個台南人, 你可以去 ... </div>   <section><div class='loader'></div></section>");
 
 }
 
