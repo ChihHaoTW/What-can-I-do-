@@ -33,7 +33,7 @@ var match = [];
 var endData = [];
 var numOfMovie = 0;
 var targetMovie;
-
+var finish = 0;
 var map;
 var service;
 var infowindow;
@@ -190,27 +190,32 @@ function clean_index(){
 
 	$('#title').remove();
 	$('#tellMe').remove();
-	$('body').append("<div id='message'>身為一個台南人, 你可以去 ... </div><div id='list'></div>");
+	$('body').append("<div id='message'>身為一個台南人, 你可以去 ... </div>   <section><div class="loader"></div></section>");
 
 }
 
 function post_data(column){
 
+	if(finish == 0 ){
+
+		$('section').remove();
+		$('body').append("<div id='list></div>")
+
+	}
 	var type;
+
 
 
 		if(column['type'] == "park" || column['type']=='landmark'){
 
 			type = "地";
 		
-			$('#list').append("<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='right'><span class='name'>"+column['name']+"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></span></div>");
-			
+			$('#list').append("	<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='name'>"+column['name']+aaaaaaaaaaa"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></div>");
 		}else if(column['type'] == "movie"){
 
 			type = "影";
 			
-			$('#list').append("<div class='BlogEntry movie'><span class='icon'>"+type+"</span><span class='right'><span class='sub_left'><div class='place'>"+targetMovie['name']+"</div><div class='address'>"+targetMovie['address']+"</div></span><span class='sub_middle'><span class='name'>"+column['name']+"</span><span class='timeTable'></span></span><span class='sub_right'><span class='search'>Search More</span></span></span></div>");
-			
+			$('#list').append("<div class='BlogEntry movie'><span class='icon'>"+type+"</span><span class='place'>"+targetMovie['name']+"</span><span class='address'>"+targetMovie['address']+"</span><span class='name'>"+column['name']+"</span><span class='timeTable'></span><span class='search'>Search More</span></div>");
 			for(var i=0;i<4;i++){
 
 				$("span#timeTable_"+key).append("<span class='time'>"+column[timeTable][i]+"</span>");
@@ -219,8 +224,7 @@ function post_data(column){
 			
 		}else if(column['type'] == "art"){
 			type =  "活";
-		$('#list').append("<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='right'><span class='name'>"+column['name']+"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></span></div>");
-			
+			$('#list').append("	<div class='place BlogEntry' ><span class='icon'>"+type+"</span><span class='name'>"+column['name']+aaaaaaaaaaa"</span><span class='address'>"+column['address']+"</span><span class='search'>Search More</span></div>");
 		}
 				
 		

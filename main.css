@@ -10,6 +10,14 @@ body {
 	
 }
 
+section {
+
+	position: absolute;
+	left: 50%;
+	top: 30%;
+
+}
+
 #title {
 	position: relative;
 	top: 10%;
@@ -32,7 +40,7 @@ body {
 	-ms-transform-origin:right bottom;
 	-ms-transform:rotate(-3deg);
 	transform-origin:right bottom;
-	transform:rotate(-3deg);
+	transform:rotate(-8deg);
 }
 
 #main {
