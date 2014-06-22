@@ -31,6 +31,11 @@ var moviePlace = [
 var match = [];
 var numOfMovie = 0;
 var targetMovie;
+
+var map;
+var service;
+var infowindow;
+
 $(document).ready(function (){
 	$('#tellMe').click(function(){
 
@@ -67,7 +72,7 @@ $(document).ready(function (){
 		
 /*		for(var key in moviePlace){
 		
-			var dist = disVincenty(myPos.latitude(), myPos.longitude(), moviePlace[key]['lat'], moviePlace[key]['lng']);
+			var dist = disVincenty(myPos.latitude, myPos.longitude, moviePlace[key]['lat'], moviePlace[key]['lng']);
 			if(dist <= 2){
 				numOfMovie = key + 1;
 				targetMovie = moviePlace[key];
@@ -109,29 +114,33 @@ $(document).ready(function (){
 				data = JSON.parse(data);
 			//	console.log(data[1].name);
 				for(var key in data){
-					
-					
-					 
-					
-					setTimeout(function() {
-						//呼叫decode()，傳入參數及Callback函數
-						geocoder.geocode({ address: data[key].address }, function (results, status) {
-							//檢查執行結果
-							if (status == google.maps.GeocoderStatus.OK) {
-							
-								var loc = results[0].geometry.location;
-								var dist = disVincenty(myPos.latitude, myPos.longitude, loc.lat(), loc.lng());
-								console.log(data[key].address);
-								if( dist <= std_dist) {
 
-									match.push(data[key]);
-								}
-							}
-							else
-							{
-								console.log("no match address");//  no match coord
-							}
-						});
+					setTimeout(function() {
+
+						  var pyrmont = new google.maps.LatLng(myPos.latitude,myPos.longitude);
+
+						  map = new google.maps.Map(document.getElementById('map'), {
+						      mapTypeId: google.maps.MapTypeId.ROADMAP,
+						      center: pyrmont,
+						      zoom: 15
+						    });
+
+						  var request = {
+						    location: pyrmont,
+						    radius: '2000',
+						    query: data[key].address
+						  };
+
+						  service = new google.maps.places.PlacesService(map);
+						  service.textSearch(request, function(results, status) {
+								  if (status == google.maps.places.PlacesServiceStatus.OK) {
+								    for (var i = 0; i < results.length; i++) {
+								      var place = results[i];
+								      console.log(key+" "+place.geometry.location);
+								    }
+								  }
+								});
+
 					}, c++ * 1000);			
 				
 			}
@@ -145,6 +154,16 @@ $(document).ready(function (){
 
 	});
 });
+
+function callback(results, status) {
+  if (status == google.maps.places.PlacesServiceStatus.OK) {
+    for (var i = 0; i < results.length; i++) {
+      var place = results[i];
+      createMarker(results[i]);
+    }
+  }
+}
+
 function clean_index(){
 
 	$('#title').remove();
