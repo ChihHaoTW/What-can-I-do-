@@ -109,36 +109,36 @@ body {
 	text-align: center;
 }
 
-.right {
 
-	position: absolute;
-	padding-top: 5px;
-	left: 80px;
-}
 
-.place .right {
-
-	padding-top: 7px;
-
-}
 
 .place .name {
 
+	position: absolute;
 	font-size: 14pt;
+	left: 10%;
+	top: 28%;
+
 }
 
 .place .address {
 
-	position: relative;
+	position: absolute;
 	font-size: 15pt;
-	left: 6%;
-	top: -1px;
+	left: 50%;
+	top: 28%;
 
+}
+
+.place .search {
+
+	position: absolute;
+	left: 85%;
+	top: 28%;
 
 }
 
 .address {
-
 
 	font-size: 12pt;
 	
@@ -164,35 +164,41 @@ body {
 
 }
 
-.place .search {
-	
-	position: relative;
-
-	left: 38%;
-}
-
-
-
-.movie .sub_middle {
+.movie .place {
 
 	position: absolute;
-	top: 10px;
-	width: 500px;
-	left: 200px;
+	left: 10%;
+	font-size: 15pt;
 
+}
+
+.movie .address {
+
+	position: absolute;
+	left: 10%;
+	font-size: 12pt;
+	top: 50%;
 }
 
 .movie .name {
 
-	font-size: 20pt;
+	position: absolute;
+	left: 45%;
+
 }
 
-.movie .sub_right {
+.movie .search {
 
 	position: absolute;
-	top: 15px;
-	width: 100px;
-	left:  350%;
+	left: 85%;
+	top: 30%;
+}
+
+.movie .timeTable {
+
+	position: absolute;
+	left: 45%;
+	top: 40%;
 
 }
 

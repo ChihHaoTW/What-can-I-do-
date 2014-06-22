@@ -1,5 +1,6 @@
 .BlogEntry
 {
+	position: relative;
 	background-color: #fff;
 	color: rgba(147,73,0,1);
 	font-size: 14pt;
