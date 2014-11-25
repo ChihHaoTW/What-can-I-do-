@@ -154,7 +154,7 @@ $(document).ready(function (){
 		var defferedArray = [];
 
 		$.ajax({ 
-			url:"/cgi-bin/ggc.py", 
+			url:"python/ggc.py", 
 			type: "get",
 			datatype: "json",	
 			success: function(data){
